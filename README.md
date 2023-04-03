@@ -1,15 +1,15 @@
-    assignment-3-team3
-
-
 ## Team Members:
 
-_Ayako Kuwayama              ID#: 52381852           Email: kuwayama@uci.edu_
+Ayako Kuwayama
+Email: kuwayama@uci.edu
 
-_Orhan Ozbasaran             ID#: 63039729           Email: oozbasar@uci.edu_
+Orhan Ozbasaran
+Email: oozbasar@uci.edu
 
-_Aigerim Kubanychbek kyzy    ID#: 70321299           Email: akubanyc@uci.edu_
+Aigerim Kubanychbek kyzy
+Email: akubanyc@uci.edu
 
-Chocoland Website with Servlet as a Maven project using Tomcat 9.x Server.
+Chocoland E-commerce Website with Servlet as a Maven project using Tomcat 9.x Server.
 
     The website consists of four main pages:
 
