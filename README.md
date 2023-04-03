@@ -57,23 +57,3 @@ Chocoland E-commerce Website with Servlet as a Maven project using Tomcat 9.x Se
    * OrderDetails  - stores the details about each order, where number of the OrderID correspond to the order in the Orders table
    * Products      - stores all the information about the products
    
-    
-    How and where are the requirements satisfied 
-    
-   * First requirement:
-     First servlet  = ProductsServlet dynamically generates the list of products.
-     Second servlet = PreviousOrdersServlet generates the last 5 orders
-     Rating requirement is handled by the RatingServlet along with PreviousOrdersServlet.
-     request.incude() feature was used in almost every servlet which required a navbar.
-   * Second requirement:
-     ProductDetailsServlet generates the detail page according to the product ID and has a Add To Cart button which sends a response to CartServlet.
-   * Third requirement:
-     A form submission and database insertion is handled by OrderSubmitServlet, the data is validated before sending the request in the 
-     cartContents.jsp
-   * Fourth requirement:
-     CartServlet creates a check-out page with all of the products, their quantity, and other key information, as well as shows the total.
-     This servlet allows the user to fill-out the form. The orderSubmit servlet helps with sending the form to the database and
-     takes care of forwarding the request to the confirmation page after a successful submission.
-     Uses request.getRequestDispatcher().forward() method to forward to the cartContents.jsp file. 
-   * Fifth requirement: unfortunately, not implemented (extra credit)
-    
